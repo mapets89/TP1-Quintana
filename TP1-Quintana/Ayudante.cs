@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TP1
 {
-    class ExamenFinal
+    class Ayudante : Persona
     {
+        public int legajo { get; set; }
+        public string password { get; set; }
     }
 }
